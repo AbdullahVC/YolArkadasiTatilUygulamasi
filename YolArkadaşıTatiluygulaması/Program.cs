@@ -65,7 +65,7 @@ Console.WriteLine(" ");
 
 //Burada toplam fiyatı heasplayarak kullanıcıya bildirdik.
 
-int toplamFiyat = lokasyonFiyati * kisiSayisi + yolFiyati;
+int toplamFiyat =  kisiSayisi * (yolFiyati + lokasyonFiyati);
 Console.WriteLine($"Tatil planınızın toplam bedeli {toplamFiyat}TL'dir");
 Console.WriteLine(" ");
 
